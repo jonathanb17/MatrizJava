@@ -61,12 +61,12 @@ public class Matriz {
             //Sumar las  columnas DE LA MATRIZ
             
               for (int j =0; j <ncol; j++) {
-                int sumaColumna=0; // acumulara la suma de cada fila
+                int sumaColumna=0; // acumulara la suma de cada columna
                     for (int i = 0; i <nFilas; i++) {
                         sumaColumna+=matriz[i][j];
                     }
                     
-                    System.out.print("\n la suma de la columna["+j+"]:"+sumaColumna);  // imrpime la suma de cada suma 
+                    System.out.print("\n la suma de la columna["+j+"]:"+sumaColumna);  // imrpime la suma 
                                                                                          // por cada iteracion que haga el for
                  }
             System.out.println("");
